@@ -1,12 +1,12 @@
 def fizzbuzz(x)
   if (x.to_i % 3 == 0)
-    puts "Fizz"
+    return "Fizz"
   
   elsif (x.to_i % 5 == 0)
     return "Buzz"
   
   elsif (x.to_i % 3 == 0) && (x.to_i % 5 == 0)
-    puts "FizzBuzz"
+    return "FizzBuzz"
   
   else
     return nil
