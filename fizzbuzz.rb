@@ -9,7 +9,7 @@ def fizzbuzz(x)
     return "FizzBuzz"
   
   else
-    puts "nope"
+    return nil
   end
 end
 
