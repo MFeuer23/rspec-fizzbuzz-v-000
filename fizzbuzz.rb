@@ -1,5 +1,5 @@
-def fizzbuzz(int)
-  if (int.to_i % 3 == 0)
+def fizzbuzz(x)
+  if (x.to_i % 3 == 0)
     puts "Fizz"
   
   elsif (int.to_i % 5 == 0)
