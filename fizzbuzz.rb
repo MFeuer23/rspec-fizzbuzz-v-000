@@ -3,7 +3,7 @@ def fizzbuzz(x)
     puts "Fizz"
   
   elsif (x.to_i % 5 == 0)
-    puts "Buzz"
+    return "Buzz"
   
   elsif (x.to_i % 3 == 0) && (x.to_i % 5 == 0)
     puts "FizzBuzz"
